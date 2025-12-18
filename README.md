@@ -15,6 +15,7 @@
 </div>
 
 ## 📋 TODO
+- [ ] If you find PersonaLive useful or interesting, please give us a Star 🌟! Your support drives us to keep improving. 🍻
 - [ ] Fix bugs (If you encounter any issues, please feel free to open an issue or contact me! 🙏)
 - [ ] Enhance WebUI (Support reference image replacement).
 - [x] **[2025.12.17]** 🔥 [ComfyUI-PersonaLive](https://github.com/okdalto/ComfyUI-PersonaLive) is now supported! (Thanks to [@okdalto](https://github.com/okdalto))
@@ -139,9 +140,72 @@ Special thanks to the community for providing helpful setups! 🥂
   
 * **ComfyUI**: Thanks to [@okdalto](https://github.com/okdalto) for helping implement the [ComfyUI-PersonaLive](https://github.com/okdalto/ComfyUI-PersonaLive) support.
 
+## 🎬 More Results
+#### 👀 Visualization results
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <video src="https://github.com/user-attachments/assets/cdc885ef-5e1c-4139-987a-2fa50fefd6a4" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="50%">
+      <video src="https://github.com/user-attachments/assets/014f7bae-74ce-4f56-8621-24bc76f3c123" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+  </tr>
+</table>
+<table width="100%">
+  <tr>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/1e6a0809-15d2-4cab-ae8f-8cf1728c6281" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/d9cf265d-9db0-4f83-81da-be967bbd5f26" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/86235139-b63e-4f26-b09c-d218466e8e24" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/238785de-3b4c-484e-9ad0-9d90e7962fee" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/c71c4717-d528-4a98-b132-2b0ec8cec22d" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/7e11fe71-fd16-4011-a6b2-2dbaf7e343fb" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/f62e2162-d239-4575-9514-34575c16301c" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+    <td width="25%">
+      <video src="https://github.com/user-attachments/assets/97663042-950f-4fa3-8e9d-e4b9ed887121" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+  </tr>
+</table>
+
+#### 🤺 Comparisons
+
+<table width="100%">
+  <tr>
+    <td width="100%">
+      <video src="https://github.com/user-attachments/assets/36407cf9-bf82-43ff-9508-a794d223d3f7" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <video src="https://github.com/user-attachments/assets/ca2fe3af-d40a-4a1c-ab6f-4ad5bf3d1fe5" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <video src="https://github.com/user-attachments/assets/5bd21fe4-96ae-4be6-bf06-a7c476b04ec9" controls="controls" style="max-width: 100%; display: block;"></video>
+    </td>
+  </tr>
+</table>
 
 ## ⭐ Citation
-If you find PersonaLive useful for your research, welcome to 🌟 this repo and cite our work using the following BibTeX:
+If you find PersonaLive useful for your research, welcome to cite our work using the following BibTeX:
 ```bibtex
 @article{li2025personalive,
   title={PersonaLive! Expressive Portrait Image Animation for Live Streaming},
