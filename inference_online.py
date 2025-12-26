@@ -24,16 +24,13 @@ from webcam.util import pil_to_frame, bytes_to_pil, is_firefox, bytes_to_tensor
 from webcam.connection_manager import ConnectionManager, ServerFullException
 import multiprocessing as mp
 
-from webcam.vid2vid_trt import Pipeline as Pipeline_trt
-from webcam.vid2vid import Pipeline
-
 mimetypes.add_type("application/javascript", ".js")
 
 THROTTLE = 0.001 
 
 
 class App:
-    def __init__(self, config: Args, pipeline: Pipeline):
+    def __init__(self, config: Args, pipeline):
         self.args = config
         self.pipeline = pipeline
         self.app = FastAPI()
@@ -288,9 +285,11 @@ if __name__ == "__main__":
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     if config.acceleration == "tensorrt":
-        pipeline = Pipeline_trt(config, device)
+        from webcam.vid2vid_trt import Pipeline
     else:
-        pipeline = Pipeline(config, device)
+        from webcam.vid2vid import Pipeline
+    
+    pipeline = Pipeline(config, device)
     
     app_obj = App(config, pipeline)
     app = app_obj.app
